@@ -1,0 +1,144 @@
+body {
+    background:linear-gradient(to right, rgb(134, 75, 75), rgb(177, 141, 141),rgb(210, 125, 125));
+      font-family: 'Arial', sans-serif; /* Cambia el tipo de fuente para todo el cuerpo del documento */
+}
+
+.about-us {
+  background:linear-gradient( to right,#301934,#4f2a56,#864792,#301934 ) ;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif; 
+  padding: 50px 0;
+}
+.body1 {
+  font-family: Arial, sans-serif;
+}
+.about-use {
+  margin: 20px;
+}
+.about-use h2 {
+  color: #800000;
+}
+.about-use p {
+  margin-bottom: 20px;
+}
+.imgtamaño {
+  height: 500px !important;
+}
+.navbar {
+  background-color: #800000; 
+}
+.nav-link {
+  color: #ffffff;
+}
+.navbar-brand {
+  color: #ffffff; 
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.wine-themed-card {
+  border: 2px solid #8B0000; 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 10px rgba(139, 0, 0, 0.3); 
+  transition: transform 0.3s ease-in-out; 
+}
+.card {
+  border: 2px solid #8B0000; 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 10px rgba(139, 0, 0, 0.3); 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.wine-themed-card:hover {
+  transform: scale(1.05); 
+}
+.card:hover {
+  transform: scale(1.05); 
+}
+.wine-themed-card {
+  background-color: #FFF8DC; 
+}
+.card-body {
+  background-color: #FFF8DC; 
+}
+.card-title {
+  color: #8B0000;
+}
+.wine-themed-card {
+  color: #8B0000;
+}
+
+.wine-themed-card {
+  background-color: #8B0000; 
+  border-color: #8B0000; 
+}
+.btn-primary {
+  background-color: #8B0000; 
+  border-color: #8B0000; 
+}
+
+.wine-themed-card {
+  background-color: #FFF8DC; 
+  color: #8B0000; 
+}
+.btn-primary:hover {
+  background-color: #FFF8DC; 
+  color: #8B0000;
+}
+.bg-wa {
+  background: radial-gradient( rgb(140, 15, 15), rgb(rgb(222, 165, 165), 58, 58),rgb(210, 151, 151), rgb(115, 4, 4));
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.bg-gris{
+  background: linear-gradient( to right, rgb(190, 76, 76), rgb(235, 117, 117),rgb(190, 58, 58));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .imgtamaño {
+    height: 200px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .imgtamaño {
+    height: 370px !important;
+  }
+}
+@media (max-width: 700px) {
+  .imgtamaño {
+    height: 110px !important;
+  }
+}
+
+.card img {
+  width: 100%; 
+  height: auto; 
+}
+
+.fixed-size-image {
+  max-width: 100%; 
+  height: auto; 
+  max-height: 200px;
+}
